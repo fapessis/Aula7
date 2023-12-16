@@ -1,0 +1,128 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+body {
+    background-color: #061B2A;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu_logo {
+   max-width:  100px;
+   cursor: pointer;
+   transition: 0.5s ease-in-out;
+}
+
+.menu_logo:hover {
+    transform: scale(1.1);
+}
+
+.menu_lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu_item {
+    font-family: "Rubik Bubbles";
+    font-size: 24px;
+    color: #A4036F;
+    transition: 0.2s ease-in-out;
+}
+
+.menu_item:hover {
+    color: #a81603;
+}
+
+.menu_curriculo {
+    font-family: "Rubik Bubbles";
+    background-color: #A4036F;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu_curriculo:hover {
+    background-color: #a81603;
+}
+
+.home{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/originals/e7/fc/a4/e7fca41687df365b3f4906a5942bb468.gif");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.home_info{
+    background-color: rgba(0, 0, 0, 0.705);
+    height: 60vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    gap: 20px;
+}
+
+.home_img{
+    max-width: 400px;
+    border-radius: 60%;
+    border: 4px solid rgb(182, 10, 10);
+}
+
+.home_nome{
+    font-family: "Rubik Bubbles";
+    font-size: 50px;
+}
+
+.home_profissao{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #A4036F;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.sobre_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre_titulo{
+    font-size: 35px;
+    font-family: "Rubik Bubbles";
+   position: relative;
+}
+
+.sobre_titulo::before{
+    content: "";
+    background-image: url( "https://raw.githubusercontent.com/abelardojr0/portfolio-aula/main/img/detalhes/detalhe_duplo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -30px;
+    left: -40px;
+    z-index: -1;
+}
